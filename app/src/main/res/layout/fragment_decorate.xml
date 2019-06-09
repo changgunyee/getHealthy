@@ -1,0 +1,97 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    android:background="@drawable/room">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="197dp"
+        android:layout_height="286dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="showDecorateBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736"
+        app:srcCompat="@drawable/character_default" />
+
+    <TableLayout
+        android:visibility="invisible"
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:stretchColumns="0.1.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt1" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt1" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt1" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt2" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt2" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt2" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/shirt2" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
